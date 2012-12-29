@@ -20,6 +20,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    currentValue = 50;
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -31,9 +32,12 @@
 
 - (IBAction)showAlert
 {
+    NSString *message = [NSString stringWithFormat:
+      @"The value of the slider is: %d", currentValue];
+    
     UIAlertView *alertView = [[UIAlertView alloc]
       initWithTitle:@"Hello World!"
-      message:@"This is a BullsEye app"
+      message:message
       delegate:nil
       cancelButtonTitle:@"Awesome"
       otherButtonTitles:nil];
