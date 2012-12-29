@@ -13,6 +13,9 @@
 @end
 
 @implementation BullsEyeViewController
+{
+    int currentValue;
+}
 
 - (void)viewDidLoad
 {
@@ -36,6 +39,11 @@
       otherButtonTitles:nil];
     
     [alertView show];
+}
+
+- (IBAction)sliderMoved:(UISlider *)slider
+{
+    currentValue = lroundf(slider.value);
 }
 
 @end
