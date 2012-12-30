@@ -36,6 +36,7 @@
 {
     [super viewDidLoad];
     [self startNewRound];
+    [self updateLabels];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -59,6 +60,7 @@
     
     [alertView show];
     [self startNewRound];
+    [self updateLabels];
 }
 
 - (IBAction)sliderMoved:(UISlider *)sender

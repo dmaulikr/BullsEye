@@ -444,9 +444,9 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">targetLabel</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="790819990"/>
+						<reference key="destination" ref="709804753"/>
 					</object>
-					<int key="connectionID">28</int>
+					<int key="connectionID">29</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
@@ -623,7 +623,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">28</int>
+			<int key="maxID">29</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
