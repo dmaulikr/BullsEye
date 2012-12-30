@@ -16,13 +16,16 @@
 {
     int currentValue;
     int targetValue;
+    int score;
 }
 @synthesize slider;
 @synthesize targetLabel;
+@synthesize scoreLabel;
 
 - (void)updateLabels;
 {
     self.targetLabel.text = [NSString stringWithFormat:@"%d", targetValue];
+    self.scoreLabel.text = [NSString stringWithFormat:@"%d", score];
 }
 
 - (void)startNewRound
@@ -49,8 +52,11 @@
 - (IBAction)showAlert
 {
     int difference = abs(targetValue - currentValue);
+    int points = 100 - difference;
+    score += points;
+    
     NSString *message = [NSString stringWithFormat:
-      @"The value of the slider is: %d\n The target value is: %d\n The difference is: %d", currentValue, targetValue, difference];
+      @"The value of the slider is: %d\n The target value is: %d\n The difference is: %d\n You scored %d points\n Score: %d", currentValue, targetValue, difference, points, score];
     
     UIAlertView *alertView = [[UIAlertView alloc]
       initWithTitle:@"Hello World!"
