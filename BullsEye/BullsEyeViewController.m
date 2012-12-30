@@ -80,11 +80,15 @@
     UIAlertView *alertView = [[UIAlertView alloc]
       initWithTitle:title
       message:message
-      delegate:nil
-      cancelButtonTitle:@"Awesome"
+      delegate:self
+      cancelButtonTitle:@"Ok"
       otherButtonTitles:nil];
     
     [alertView show];
+}
+
+- (void) alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex
+{
     [self startNewRound];
     [self updateLabels];
 }

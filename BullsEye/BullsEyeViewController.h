@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BullsEyeViewController : UIViewController
+@interface BullsEyeViewController : UIViewController <UIAlertViewDelegate>
 
 - (IBAction)showAlert;
 - (IBAction)sliderMoved:(UISlider *)sender;
