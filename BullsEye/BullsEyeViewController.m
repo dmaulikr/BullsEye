@@ -48,8 +48,18 @@
 
 - (IBAction)showAlert
 {
+    int difference;
+    if (targetValue > currentValue) {
+        difference = targetValue - currentValue;
+    }
+    else if (currentValue > targetValue){
+        difference = currentValue - targetValue;
+    }
+    else {
+        difference = 0; 
+    }
     NSString *message = [NSString stringWithFormat:
-      @"The value of the slider is: %d\n The target value is: %d", currentValue, targetValue];
+      @"The value of the slider is: %d\n The target value is: %d\n The difference is: %d", currentValue, targetValue, difference];
     
     UIAlertView *alertView = [[UIAlertView alloc]
       initWithTitle:@"Hello World!"
