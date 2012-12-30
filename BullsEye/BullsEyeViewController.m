@@ -57,18 +57,22 @@
 {
     int difference = abs(targetValue - currentValue);
     int points = 100 - difference;
-    score += points;
     
     NSString *title;
     if (difference == 0) {
+        points += 100;
         title = @"Perfect!";
     } else if (difference < 5) {
+        if (difference == 1) {
+            points += 50;
+        }
         title = @"Almost had it!";
     } else if (difference < 10) {
         title = @"Pretty good";
     } else {
         title = @"Not even close";
     }
+    score += points;
     
     NSString *message = [NSString stringWithFormat:
       @"The value of the slider is: %d\n The target value is: %d\n The difference is: %d\n You scored %d points\n Score: %d", currentValue, targetValue, difference, points, score];
