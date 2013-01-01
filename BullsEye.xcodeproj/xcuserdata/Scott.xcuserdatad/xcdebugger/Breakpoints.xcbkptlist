@@ -8,12 +8,25 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "BullsEye/BullsEyeViewController.m"
-         timestampString = "378542333.196715"
+         timestampString = "378724594.418735"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "30"
-         endingLineNumber = "30"
+         startingLineNumber = "31"
+         endingLineNumber = "31"
          landmarkName = "-updateLabels"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "BullsEye/BullsEyeViewController.m"
+         timestampString = "378724594.418735"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "117"
+         endingLineNumber = "117"
+         landmarkName = "-showInfo"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

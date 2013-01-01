@@ -10,4 +10,7 @@
 
 @interface AboutViewController : UIViewController
 
+- (IBAction)showInfo;
+- (IBAction)close;
+
 @end

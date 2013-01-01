@@ -35,4 +35,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)close
+{
+    [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+}
+
 @end
