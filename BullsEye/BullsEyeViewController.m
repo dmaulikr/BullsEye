@@ -42,7 +42,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self startNewRound];
+    [self startNewGame];
     [self updateLabels];
 	// Do any additional setup after loading the view, typically from a nib.
 }
@@ -96,6 +96,19 @@
 - (IBAction)sliderMoved:(UISlider *)sender
 {
     currentValue = lroundf(sender.value);
+}
+
+- (void)startNewGame
+{
+    score = 0;
+    round = 0;
+    [self startNewRound];
+}
+
+- (IBAction)startOver
+{
+    [self startNewGame];
+    [self updateLabels];
 }
 
 @end

@@ -18,6 +18,8 @@
 		D279D917168EC3840040B74B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D279D916168EC3840040B74B /* Default-568h@2x.png */; };
 		D279D91A168EC3840040B74B /* BullsEyeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D279D919168EC3840040B74B /* BullsEyeViewController.m */; };
 		D279D91D168EC3840040B74B /* BullsEyeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D279D91B168EC3840040B74B /* BullsEyeViewController.xib */; };
+		D2A9FE1B1692DCAE00E90D48 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A9FE191692DCAE00E90D48 /* AboutViewController.m */; };
+		D2A9FE1C1692DCAE00E90D48 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2A9FE1A1692DCAE00E90D48 /* AboutViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		D279D918168EC3840040B74B /* BullsEyeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BullsEyeViewController.h; sourceTree = "<group>"; };
 		D279D919168EC3840040B74B /* BullsEyeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BullsEyeViewController.m; sourceTree = "<group>"; };
 		D279D91C168EC3840040B74B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BullsEyeViewController.xib; sourceTree = "<group>"; };
+		D2A9FE181692DCAE00E90D48 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		D2A9FE191692DCAE00E90D48 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		D2A9FE1A1692DCAE00E90D48 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +93,9 @@
 				D279D918168EC3840040B74B /* BullsEyeViewController.h */,
 				D279D919168EC3840040B74B /* BullsEyeViewController.m */,
 				D279D91B168EC3840040B74B /* BullsEyeViewController.xib */,
+				D2A9FE181692DCAE00E90D48 /* AboutViewController.h */,
+				D2A9FE191692DCAE00E90D48 /* AboutViewController.m */,
+				D2A9FE1A1692DCAE00E90D48 /* AboutViewController.xib */,
 				D279D907168EC3840040B74B /* Supporting Files */,
 			);
 			path = BullsEye;
@@ -164,6 +172,7 @@
 				D279D915168EC3840040B74B /* Default@2x.png in Resources */,
 				D279D917168EC3840040B74B /* Default-568h@2x.png in Resources */,
 				D279D91D168EC3840040B74B /* BullsEyeViewController.xib in Resources */,
+				D2A9FE1C1692DCAE00E90D48 /* AboutViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +186,7 @@
 				D279D90D168EC3840040B74B /* main.m in Sources */,
 				D279D911168EC3840040B74B /* BullsEyeAppDelegate.m in Sources */,
 				D279D91A168EC3840040B74B /* BullsEyeViewController.m in Sources */,
+				D2A9FE1B1692DCAE00E90D48 /* AboutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
